@@ -10,7 +10,7 @@
 Creat New Environment for every new project
 
 ```
-conda create -p venv python==3.7 -y
+conda create -p venv python==3.7 
 ```
 
 Install Required Libraries (requirements.txt)
@@ -19,3 +19,8 @@ Install Required Libraries (requirements.txt)
 pip install -r requirements.txt
 ```
 
+To upload all files from local system to GitHub use below 
+
+git add .
+git commit -m "commit massage"
+git push origin main
